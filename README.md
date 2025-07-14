@@ -4,7 +4,7 @@ I'm going through this in addition to General Assembly
 so that I can fully understand coding concepts and get more practice in areas I am currently weak in...
 including JS. 
 
-I plan on getting good at full stack with an emphasis in Front End Dev.
+**I plan on getting good at full stack with an emphasis in Front End Dev.**
 
 I just require more information in a different format so that I fully understand certain concepts. 
 
