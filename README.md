@@ -1,4 +1,4 @@
-## **These are practice Udemy Web Projects within the Angela Yu course: Become a Full-Stack Web Developer "The Complete Full-Stack Web Development Bootcamp"**  
+## **These are practice Udemy Web Projects within the Angela Yu course: Become a Full-Stack Web Developer --------"The Complete Full-Stack Web Development Bootcamp"**  
 
 I'm going through this in addition to General Assembly 
 so that I can fully understand coding concepts and get more practice in areas I am currently weak in...
