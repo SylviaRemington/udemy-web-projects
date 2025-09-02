@@ -11,3 +11,5 @@ Additionally, I plan on going through the full Dr. Angela Yu's "The Complete Ful
 I still find Angela's teaching style and lessons more geared to my way of thinking (which is more visual,
 creative, looking at the big picture and big concepts prior to focusing on the details). And her teachings,
 coupled with General Assembly is helping me understand and "get" the concepts faster and better. Yay.
+
+**Starting back going through this bootcamp again on September 2nd, 2025 & planning on coding everyday (and going through this bootcamp every day).
