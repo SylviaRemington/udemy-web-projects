@@ -13,3 +13,5 @@ creative, looking at the big picture and big concepts prior to focusing on the d
 coupled with General Assembly is helping me understand and "get" the concepts faster and better. Yay.
 
 **Starting back going through this bootcamp again on September 2nd, 2025 & planning on coding everyday (and going through this bootcamp every day).
+
+**Update: Starting Full Udemy Course while doing GA - September 15th, 2025 and on! Yay and yuuus!**
