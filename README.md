@@ -15,3 +15,4 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 **Starting back going through this bootcamp again on September 2nd, 2025 & planning on coding everyday (and going through this bootcamp every day).
 
 **Update: Starting Full Udemy Course while doing GA - September 25th, 2025 and on! Yay and yuuus!**
+
