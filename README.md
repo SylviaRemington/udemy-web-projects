@@ -1,3 +1,4 @@
+
 ## **These are practice Udemy Web Projects within the Angela Yu course: Become a Full-Stack Web Developer - "The Complete Full-Stack Web Development Bootcamp"**  
 
 I'm going through this in addition to General Assembly 
@@ -16,5 +17,5 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 
 **Update: Starting Full Udemy Course while doing GA - December 9th, 2025 and on! Yay and yuuus!**
 
-
+<hr>
 
