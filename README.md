@@ -17,5 +17,5 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 
 **Update: Starting Full Udemy Course while doing GA - December 9th, 2025 and on! Yay and yuuus!**
 
-<hr>
+
 
