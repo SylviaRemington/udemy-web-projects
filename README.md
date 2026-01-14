@@ -17,14 +17,12 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 
 **Update: Starting Full Udemy Course while doing GA - December 9th, 2025 and on! Yay and yuuus!**
 
-<br>
+<hr>
+
+### HTML ONLY Website Project Below (Practice for Udemy Course - going through everything to make sure I know the basic basics!)
+
+<img width="321" height="1146" alt="Screenshot 2026-01-13 at 6 25 26 PM" src="https://github.com/user-attachments/assets/3d98a2f4-ce0a-4df2-a167-37a7ea1af37d" />
+
+<img width="359" height="1225" alt="Screenshot 2026-01-13 at 6 27 46 PM" src="https://github.com/user-attachments/assets/86c9cc17-de0b-4ee2-b7ee-81a01db1447a" />
 
 
-
-
-
-
-<br>
-<br>
-<br>
-<br>
