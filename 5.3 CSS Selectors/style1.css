@@ -8,11 +8,26 @@ ol {
 
 /* TODO 1 */
 p {
-    color: red;
+  color: red;
 }
 
 /* TODO 2 */
 .note {
-    font-size: 20px;
+  font-size: 20px;
 }
 
+/* TODO 3 */
+#id-selector-demo {
+  color: green;
+}
+
+/* TODO 4 */
+.note[value="4"] {
+  color: blue;
+}
+
+/* TODO 5 */
+* {
+  text-align: center;
+}
+/* Ideally for TODO 5, it's best to have the universal selector at the top, I believe. */
