@@ -22,7 +22,15 @@ p {
 }
 
 /* TODO 4 */
-.note[value="4"] {
+/* ATTRIBUTE SELECTORS - a little bit tricky compared to other selectors sometimes. */
+
+/* First try below... incorrect for the assignment though it does work & is another way to do it. */
+/* .note[value="4"] {
+  color: blue;
+} */
+
+/* Second try corrected below. */
+li[value="4"] {
   color: blue;
 }
 
@@ -31,3 +39,5 @@ p {
   text-align: center;
 }
 /* Ideally for TODO 5, it's best to have the universal selector at the top, I believe. */
+
+
