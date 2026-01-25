@@ -1,0 +1,5 @@
+/* Checking to see if stylesheet is matched with html1 - It is. */
+
+* {
+    background-color: rgb(5, 85, 112);
+}
