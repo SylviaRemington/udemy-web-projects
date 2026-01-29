@@ -3,11 +3,54 @@
     background-color: blueviolet;
 } */
 
+
+/* Notes: The "*" selects every single element on the page. Applying to every box that exists. 
+
+That includes:
+• html
+• body
+• div
+• h1
+• p
+• img
+• everything else
+
+Also...
+
+Good use cases for *:
+• Resetting defaults (margins, padding)
+• Very broad rules you truly want everywhere
+• Establishing a universal baseline */
+
 * {
     background-color: black;
     color: white;
 
 }
+
+/* Notes for html: 
+
+Good use cases for html:
+• Setting base font size (for rem units)
+• Page-wide defaults that are meant to be inherited
+• Structural, root-level decisions
+
+Why they (html & *) feel similar (but aren’t). Both affect the whole page, but in different ways:
+
+*
+• Directly styles every element
+• Applies rule by force
+• Does not rely on inheritance
+
+html
+• Styles the root
+• Other elements may inherit from it
+• More subtle and controlled
+
+That’s why this makes sense: font size on html because everything references it.
+
+And this also makes sense: resets or emergency rules on *. 
+*/
 
 html {
     font-size: 20px;
@@ -42,3 +85,34 @@ img {
 #motivation {
     font-size: 1rem;
 }
+
+
+
+/* Best Practices CSS Rules for order of things per a search is as follows:
+
+The Real Reason is the CSS Cascade:
+
+When CSS has conflicting rules, later properties can override earlier ones. 
+This order groups properties by how specific they are and what they affect the following
+
+1. Layout/Box Model First
+These properties affect positioning of other elements and the document flow:
+- If you change width or display, everything else about the element shifts.
+- These properties are like the foundation - they determine the space everything else lives in.
+
+2. Typography Second
+Font and text properties can affect the size of the container:
+- Different fonts have different sizes even at the same font-size
+- line-height affects vertical spacing
+- If you set colors first, then change font size and the box grows, you might have to adjust colors again
+
+3. Colors/Backgrounds Third
+These properties don't affect layout at all:
+- Changing color from white to red doesn't move anything
+- Changing background-color doesn't change where elements sit
+- They're "skin deep" - purely visual without affecting structure
+
+4. Other Properties Last
+These are the most specific overrides:
+- Things like text-transform, box-shadow, opacity
+- They're often the "finishing touches" you add after everything else is working*/
