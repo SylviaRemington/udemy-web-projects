@@ -82,6 +82,7 @@ img {
 #title {
     font-size: 1.5rem;
     margin: 10px 0px;
+    /* Note: When inspecting the CSS via Chrome Dev Tools, it seems as though margins for title of h1 and img are overlapping. Need to learn more about this and why that is happening. */
     text-transform: uppercase;
 }
 
