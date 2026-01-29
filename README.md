@@ -20,7 +20,7 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 
 <hr>
 
-### HTML ONLY Website Project Below <br> (Practice for Udemy Course - going through everything to make sure I know the basic basics!)
+### HTML ONLY Website Project Below <br> (Practice for Udemy Course - going through everything to make sure I know the basics!)
 
 <br>
 
