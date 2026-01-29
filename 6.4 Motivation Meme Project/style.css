@@ -53,12 +53,13 @@ And this also makes sense: resets or emergency rules on *.
 */
 
 html {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 div {
     width: 50%;
     margin-left: 20%;
+    /* Also, probably better to put margin top of 20px here rather than in img tag for future reference. */
 }
 
 img {
@@ -79,11 +80,13 @@ img {
 }
 
 #title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    text-transform: uppercase;
 }
 
 #motivation {
-    font-size: 1rem;
+    font-size: .5rem;
 }
 
 
