@@ -7,6 +7,8 @@ div {
     width: 50%;
     margin-left: 25%;
 }
+/* For larger scale projects, create a class for the div so that all elements within can be styled together and for better usability into the future when other divs are used. */
+/* Also, if you use class for this div, then you can also style everything within it with same font, etc. Cleaner & better for coding. */
 
 img {
     border: 5px solid white;
@@ -26,5 +28,32 @@ h1 {
 
 #h1tag {
     text-transform: uppercase;
-    
 }
+
+
+/* Angela Yu's version of code that is better for scaleability into the future::after
+
+body {
+    background-color: black;
+}
+    
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+    
+.poster (this one is what she named the div) {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100%;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+    
+.motivation-img {
+    border: 5px solid white;
+    width: 100%;
+}
+
+*/
