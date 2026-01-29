@@ -9,6 +9,10 @@
 
 }
 
+html {
+    font-size: 20px;
+}
+
 div {
     width: 50%;
     margin-left: 25%;
@@ -16,9 +20,26 @@ div {
 
 img {
     border: 5px solid white;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
 }
 
 .verbiage {
     text-align: center;
+    font-size: ;
+
+    /* Below is the Font CSS class for a variable style */
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#motivation {
+    font-size: 1rem;
 }
