@@ -180,3 +180,25 @@ img {
 
 
 */
+
+
+/* MORE NOTES: 
+
+WHEN TO USE WHAT:
+
+body { background-color: black; }
+Use this: When you want the PAGE BACKGROUND black
+Why: It's the standard. It's what everyone does.
+What it does: Colors only the body element
+
+* { background-color: black; }
+Use this: When you want EVERY SINGLE ELEMENT to be forced black
+Why you almost never do this: Because then buttons, inputs, tables, everything gets black backgrounds
+What it does: Colors body, divs, spans, buttons, inputs, everything
+
+html { background-color: black; }
+Use this: When you want the ENTIRE BROWSER WINDOW black including scrollbars
+Why: Rarely needed
+What it does: Colors behind everything, even browser UI areas
+
+*/
