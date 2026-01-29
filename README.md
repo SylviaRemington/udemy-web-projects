@@ -17,6 +17,7 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 
 **Update: Starting Full Udemy Course while doing GA - December 9th, 2025 and on! Yay and yuuus!**
 
+
 <hr>
 
 ### HTML ONLY Website Project Below <br> (Practice for Udemy Course - going through everything to make sure I know the basic basics!)
