@@ -3,17 +3,24 @@ body {
     color: white;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
+
 div {
     width: 50%;
     margin-left: 25%;
 }
 /* For larger scale projects, create a class for the div so that all elements within can be styled together and for better usability into the future when other divs are used. */
 /* Also, if you use class for this div, then you can also style everything within it with same font, etc. Cleaner & better for coding. */
+/* It's important to style the div all together in the future. */
+
+/* ---------------------------------------------------------------------------------------------- */
 
 img {
     border: 5px solid white;
     width: 100%;
 }
+
+/* ---------------------------------------------------------------------------------------------- */
 
 h1 {
   font-family: "Libre Baskerville", serif;
@@ -21,15 +28,28 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
+/* This info for the h1 above could have been added into the div for cleaner code. */
+
+/* ---------------------------------------------------------------------------------------------- */
 
 .text {
     text-align: center;
 }
+/* This info for the .text class above could have been added into the div for cleaner code. */
+
+/* ---------------------------------------------------------------------------------------------- */
 
 #h1tag {
     text-transform: uppercase;
 }
 
+
+
+
+/* 
+----------------------------------------------------------------------------------------------
+ANGELA YU'S SOLUTION CODE
+---------------------------------------------------------------------------------------------- */
 
 /* Angela Yu's version of code that is better for scaleability into the future::after
 
