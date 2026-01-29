@@ -34,9 +34,7 @@ coupled with General Assembly is helping me understand and "get" the concepts fa
 
 <hr>
 
-### CSS Box Model Practice - 
-
-<br>
+### CSS Box Model Practice - Motivational Poster Website Project <br> (Practice for Udemy Course - only using most basic CSS for this project as per Angela Yu)
 
 <img width="843" height="681" alt="be-the-change Screenshot 2026-01-28 at 7 29 05 PM" src="https://github.com/user-attachments/assets/640277fc-ec9b-4462-999e-ba178597187f" />
 
