@@ -10,3 +10,13 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.white-text {
+  background-color: red;
+}
+/* How do you apply css to a class that has a space 
+in it in the html? Originally wanted to use this.*/
+/* .box inner-box {
+  background-color: red;
+} */
+
