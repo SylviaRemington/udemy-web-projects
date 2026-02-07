@@ -13,6 +13,7 @@ p {
 
 .white-text {
   background-color: red;
+  padding: 10px;
 }
 /* How do you apply css to a class that has a space 
 in it in the html? Originally wanted to use this.*/
