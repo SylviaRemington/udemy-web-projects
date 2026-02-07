@@ -11,14 +11,22 @@ p {
   padding: 0;
 }
 
-.white-text {
+.inner-box {
   background-color: red;
+  /* padding: 10px; */
+  /* Don't need to add padding here because redundant &
+  already find it above in .box which is applied to all classes in code. */
+}
+
+.white-text {
+  /* background-color: red; */
   color: white;
-  padding: 10px;
+  /* padding: 10px; */
 
 }
-/* How do you apply css to a class that has a space 
+/* Question: How do you apply css to a class that has a space 
 in it in the html? Originally wanted to use this.*/
+/* Answer: I misinterpreted the html I saw. Turns out that there are two classes - one is inner-box & one is box. Thus, can use inner-box instead so that the lesson is correct. */
 /* .box inner-box {
   background-color: red;
 } */
@@ -28,3 +36,29 @@ in it in the html? Originally wanted to use this.*/
 }
 
 /* Completed My Version - below will be if there are any changes as I review Angela Yu's version. */
+/* Corrected code below of how it should be: */
+
+/* 
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text {
+  color: white;
+}
+
+.inner-box {
+  background-color: red;
+}
+
+#outer-box {
+  border: 10px solid purple;
+} */
+
