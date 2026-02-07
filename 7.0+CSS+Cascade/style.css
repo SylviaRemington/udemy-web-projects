@@ -13,7 +13,9 @@ p {
 
 .white-text {
   background-color: red;
+  color: white;
   padding: 10px;
+
 }
 /* How do you apply css to a class that has a space 
 in it in the html? Originally wanted to use this.*/
@@ -21,3 +23,6 @@ in it in the html? Originally wanted to use this.*/
   background-color: red;
 } */
 
+#outer-box {
+  border: 10px solid purple;
+}
