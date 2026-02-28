@@ -1,14 +1,7 @@
 
 ## **These are practice Udemy Web Projects within the Angela Yu course: Become a Full-Stack Web Developer - "The Complete Full-Stack Web Development Bootcamp"**  
 
-I'm going through this in addition to General Assembly so that I can fully understand coding concepts and get more practice. 
-
-**I plan on getting great at full stack with an emphasis in Front End Dev!** 
-
-Additionally, I plan on going through the full Dr. Angela Yu's "The Complete Full-Stack Web Development Bootcamp" Course while I'm in General Assembly. Even though my GA instructor Tristan Hall rocks and explains code and concepts really well, and is curious and helpful, and always is willing and interested in answering any questions, 
-I still find Angela's teaching style and lessons more geared to my way of thinking (which is more visual, creative, looking at the big picture and big concepts prior to focusing on the details). And her teachings, coupled with General Assembly is helping me understand and "get" the concepts faster and better. Yay.
-
-**Latest Update: Restarting & Re-Going-Through Full Udemy Course - February 25th, 2026 & planning on completing within a month! Yay and yuuus!**
+**Latest Update: Restarting Full Udemy Course - February 25th, 2026 & planning on completing within a month! Yay and yuuus!**
 
 <hr>
 
@@ -35,4 +28,5 @@ I still find Angela's teaching style and lessons more geared to my way of thinki
 <br>
 
 <hr>
+
 
