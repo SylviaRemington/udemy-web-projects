@@ -10,10 +10,6 @@ ol {
 /* Write your CSS below, don't change the rules above. */
 /* My work */
 
-* {
-    text-align: center;
-}
-
 p {
     color: red;
 }
@@ -26,6 +22,10 @@ p {
     color: green;
 }
 
-li [value="4"]{
+li[value="4"] {
     color: blue;
+}
+
+* {
+    text-align: center;
 }
