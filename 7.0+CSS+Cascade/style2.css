@@ -1,0 +1,17 @@
+/* test to make sure html and css are linked */
+/* * {
+    background-color: green;
+} */
+
+/* Existing CSS provided with .box and p */
+.box {
+    background-color: blue;
+    padding: 10px;
+}
+
+p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
