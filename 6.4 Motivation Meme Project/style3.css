@@ -5,6 +5,7 @@
 
 div {
     text-align: center;
+    margin-top: 100px;
 }
 
 img {
@@ -14,3 +15,29 @@ img {
 h1 {
     text-transform: uppercase;
 }
+/* Could have set font-size so that it is set for future reference. */
+
+/* ----------------------------------------------------------------------- */
+
+/* The sample solution code is more like this:
+body {
+  background-color: black;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.poster { //Which is her version of the div of mine from above and is better for scaling up. //I kind of feel like she overcomplicated it for this lesson, but I get it now.
+  width: 50%; // THIS IS THE WIDTH OF THE BOX (div)
+  margin-left: 25%; // FOR THE 50% BOX TO BE CENTERED ON 100% OF THE SCREEN, YOU NEED 25% ON ONE SIDE AND 25% ON THE OTHER SIDE.
+  margin-top: 100px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center; // THIS IS FOR THE TEXT TO BE CENTERED
+}
+
+.motivation-img { //Which is her version of the img of mine from above and also is better for scaling up.
+  border: 5px solid white;
+  width: 100%;
+}*/
