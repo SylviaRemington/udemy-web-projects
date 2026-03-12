@@ -6,3 +6,11 @@
 div {
     text-align: center;
 }
+
+img {
+    border: 5px solid white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
