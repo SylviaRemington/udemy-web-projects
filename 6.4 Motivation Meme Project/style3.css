@@ -39,5 +39,5 @@ h1 {
 
 .motivation-img { //Which is her version of the img of mine from above and also is better for scaling up.
   border: 5px solid white;
-  width: 100%;
+  width: 100%; // She created the image 100% wide so the image would extend and fit fully in the div. This is just another way of doing it.
 }*/
