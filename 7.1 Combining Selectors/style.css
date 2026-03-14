@@ -16,6 +16,6 @@ h1, h2 {
 }
 
 /* Using Chaining Rule for combining css selectors */
-div.box.list.done {
+li.done {
     color: seagreen;
 }
