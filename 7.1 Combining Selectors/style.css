@@ -10,3 +10,7 @@ h1, h2 {
     color: firebrick;
 }
 
+/* Using Descendant Rule/Combo for combining CSS Selectors */
+.box li {
+    color: blue;
+}
