@@ -24,4 +24,7 @@ li.done {
 ul p.done {
     font-size: .5rem;
 }
+/* For the above solve, using the ancestor selector and then the chaining method for more specificity & that is what we want to target is the p.done. */
+/* Also, when hover over the selectors, vscode shows what element it's selecting as well. Good to know if want to double check what the css is selecting. And also helpful for troubleshooting. */
+
 
