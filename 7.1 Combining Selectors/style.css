@@ -19,3 +19,9 @@ h1, h2 {
 li.done {
     color: seagreen;
 }
+
+/* Using the Combine Combiners method that I may see out in the wild when coding & reviewing code */
+body ul.done {
+    font-size: .5rem;
+}
+
