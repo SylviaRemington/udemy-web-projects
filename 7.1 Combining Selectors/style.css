@@ -21,7 +21,7 @@ li.done {
 }
 
 /* Using the Combine Combiners method that I may see out in the wild when coding & reviewing code */
-body ul.done {
+ul p.done {
     font-size: .5rem;
 }
 
