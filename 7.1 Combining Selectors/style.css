@@ -14,3 +14,8 @@ h1, h2 {
 .box li {
     color: blue;
 }
+
+/* Using Chaining Rule for combining css selectors */
+div.box.list.done {
+    color: seagreen;
+}
