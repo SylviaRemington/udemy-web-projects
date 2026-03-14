@@ -1,4 +1,12 @@
 /* Write your code here: */
+
+/* Using Group Rule for combining CSS Selectors */
 h1, h2 {
     color: blueviolet;
 }
+
+/* Using the Child Rule for combining CSS Selectors */
+.box > p {
+    color: firebrick;
+}
+
