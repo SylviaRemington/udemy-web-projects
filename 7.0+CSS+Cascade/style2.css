@@ -4,6 +4,11 @@
 } */
 
 /* Existing CSS provided with .box and p */
+
+#outer-box {
+    background-color: purple;
+}
+
 .box {
     background-color: blue;
     padding: 10px;
@@ -23,6 +28,5 @@ p {
     color: white;
 }
 
-#outer-box {
-    background-color: purple;
-}
+
+
