@@ -34,7 +34,7 @@
         top: 150px;
     }
 
-    /* WHITE CIRCLE PART */
+    /* WHITE CIRCLE */
     /* This part is the white circle part */
     /* You can do .flag div > p and you can do .flag > div > div */
     .flag > div > div {
@@ -44,22 +44,20 @@
         height: 200px;
         /* This below creates the circle */
         border-radius: 50%; 
-        /* position: absolute;
-        top: 225px; ohhhh already 200px down... so just need to add the 25 px? Or actually that's the height & width of circle.*/
-        /* position: absolute;
-        top: 30px;
-        left: 350px; */
         color: black;
         /* PUTTING WHITE CIRCLE RELATIVE TO ITS PARENT THE BLUE CIRCLE */
         position: relative;
+        top: 50px;
+        left: 350px;
+        /* 350px because total width is 900, width of circle is 200px and difference on each side is 350px on each side. */
 
     }
 
-    p {
+    /* p {
         text-align: center;
         position: relative;
         top: 75px;
-    }
+    } */
 
     /* redundant */
     /* .flag div p {
