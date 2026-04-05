@@ -40,4 +40,4 @@ body ul.done {
 }
     
 The reason it doesn't work is that this one is selecting the ul with a class of done which
-the html doesn't have. Need to add in the p tag to make it work. Thus if you had body ul p.done {}, that would work! :)*/
+the html doesn't have. Need to add in the p tag to make it work. Thus if you had body ul p.done {}, that would work! :) The point is that you need to include everything to get the correct selector & to get the correct selected item that you want.*/
