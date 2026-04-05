@@ -10,7 +10,9 @@
     /* Write your CSS Code here */
     /* Attempt #2 */
 
+    /* RED PART OF FLAG */
     /* .flag is the whole flag - The main div that encompasses everything */
+    /* Did this one correctly. */
     .flag {
         background-color: rgb(206, 17, 38);
         width: 900px;
@@ -20,7 +22,9 @@
         font-size:  5rem;
     }
 
+    /* BLUE PART OF FLAG */
     /* .flag > div is the middle part that encompasses also the 'of Laos part' */
+    /* Did this one correctly. */
     .flag > div {
         background-color: rgb(0, 40, 104);
         width: 900px;
@@ -30,9 +34,10 @@
         top: 150px;
     }
 
+    /* WHITE CIRCLE PART */
     /* This part is the white circle part */
-    /* You can do .flag div > p and you can do .flag div > div */
-    .flag div > p {
+    /* You can do .flag div > p and you can do .flag > div > div */
+    .flag > div > div {
         background-color: white;
         /* This below creates a square. */
         width: 200px;
@@ -41,10 +46,13 @@
         border-radius: 50%; 
         /* position: absolute;
         top: 225px; ohhhh already 200px down... so just need to add the 25 px? Or actually that's the height & width of circle.*/
-        position: absolute;
+        /* position: absolute;
         top: 30px;
-        left: 350px;
+        left: 350px; */
         color: black;
+        /* PUTTING WHITE CIRCLE RELATIVE TO ITS PARENT THE BLUE CIRCLE */
+        position: relative;
+
     }
 
     p {
