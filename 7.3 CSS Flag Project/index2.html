@@ -10,13 +10,17 @@
     /* Write your CSS Code here */
     /* Attempt #2 */
 
+    /* .flag is the whole flag - The main div that encompasses everything */
     .flag {
         background-color: rgb(206, 17, 38);
         width: 900px;
         height: 600px;
         position: relative;
+        color: white;
+        font-size:  5rem;
     }
 
+    /* .flag > div is the middle part that encompasses also the 'of Laos part' */
     .flag > div {
         background-color: rgb(0, 40, 104);
         width: 900px;
@@ -24,21 +28,30 @@
         position: absolute;
         top: 150px;
     }
-    /* could also have done child selector of .flag > div instead of that selector above. */
 
-    .flag p {
-        color: white;
-    }
-
+    /* This part is the white circle part */
     .flag div > p {
         background-color: white;
+        /* This below creates a square. */
         width: 200px;
         height: 200px;
-        border-radius: 50%;
+        /* This below creates the circle */
+        border-radius: 50%; 
         /* position: absolute;
         top: 225px; ohhhh already 200px down... so just need to add the 25 px? Or actually that's the height & width of circle.*/
         position: absolute;
-        top: 25px;
+        top: 30px;
+        left: 350px;
+    }
+
+    p {
+        text-align: center;
+        position: relative;
+        top: 75px;
+    }
+
+    .flag div p {
+        color: black;
     }
 
   </style>
