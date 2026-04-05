@@ -24,12 +24,14 @@
     .flag > div {
         background-color: rgb(0, 40, 104);
         width: 900px;
+        /* Can also do width: 100% because it's 100% of its parent. */
         height: 300px;
         position: absolute;
         top: 150px;
     }
 
     /* This part is the white circle part */
+    /* You can do .flag div > p and you can do .flag div > div */
     .flag div > p {
         background-color: white;
         /* This below creates a square. */
