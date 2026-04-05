@@ -28,3 +28,13 @@ ul p.done {
 /* Also, when hover over the selectors, vscode shows what element it's selecting as well. Good to know if want to double check what the css is selecting. And also helpful for troubleshooting. */
 
 
+/* Another correct version is as follows:
+ul > p.done {
+    font-size: .5rem;
+}*/
+
+
+/* I originally did the following below, but this version is not correct:
+body ul.done {
+    font-size: .5rem;
+}*/
