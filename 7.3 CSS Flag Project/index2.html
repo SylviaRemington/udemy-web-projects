@@ -60,9 +60,15 @@
     }
 
     body > div > div > div > p {
+        /* could also do .flag div div p above and have the same result */
         color: black;
     }
 
+    /* If I wanted to make the verbiage 'The Flag' centered, I could do this too. */
+    body > div > p {
+        position: relative;
+        top: 30px;
+    }
     /* redundant */
     /* .flag div p {
         color: black;
