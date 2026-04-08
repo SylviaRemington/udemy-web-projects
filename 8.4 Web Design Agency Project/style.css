@@ -23,11 +23,20 @@ span {
 }
 
 /* Images */
+/* So this is where I'm floating all images to the left so that text can be to the right. */
 .tile-image {
   float: left;
 }
 
+/* This is where I'm moving the entire container of photo & verbiage to the left, while the text is still floating the way I created it on lines 27 & 28. */
+.left {
+  float: left;
+}
 
+/* This is where I'm moving the entire right container @ verbiage (it's all held in the same div), I'm moving to the right. Opposite side than line 32 & 33 above. */
+.right {
+  float:right;
+}
 
 
 
@@ -37,6 +46,10 @@ footer {
   /* color: midnightblue; */
   /* Midnight blue is the same as the rgb; however, I inspected the solution code and wanted to use the rgb for it... thus below. */
   color: rgb(25, 25, 112);
+  /* This clears the float from above. */
+  /* Or if I have a float left and a float right, I can do clear: both */
+  /* clear: left; This is the previous when I only had lines 27-28 and not the other lines underneath. */
+  clear: both;
 }
 
 /* As per research, it says best to put media queries at the end. */
