@@ -35,3 +35,19 @@ footer {
   /* Midnight blue is the same as the rgb; however, I inspected the solution code and wanted to use the rgb for it... thus below. */
   color: rgb(25, 25, 112);
 }
+
+/* As per research, it says best to put media queries at the end. */
+@media (min-width: 319px) and (max-width: 480px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+}
+
+
+/* 
+Mobile Devices: 319px — 480px
+iPads and Tablets: 481px — 1200px
+Laptops: 1201px — 1600px
+Desktops: 1601px and more */
