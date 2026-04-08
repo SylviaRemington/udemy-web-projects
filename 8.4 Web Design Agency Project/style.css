@@ -8,7 +8,10 @@ body {
 }
 .main {
   flex: 1;
-  display: inline-block;
+  /* Works better to use block because it spans the entire width of the webpage. This works better for the html I currently have.
+  If I use inline-block, it shrinks to only be as wide as the content. It's narrower and weaker.
+  Cards can't sit nicely together side by side if parent is too narrow and doesn't give enough room. */
+  display: block;
 }
 
 h1 {
