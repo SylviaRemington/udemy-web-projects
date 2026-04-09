@@ -35,8 +35,11 @@ span {
 /* THIS IS THE ENTIRE LEFT CARD */
 .left {
   float: left;
+  /* 200px is normal, standard height for a readable image on a webpage. */
+  height: 200px;
   /* So that there is a gap between the left card and the right card. In Flexbox you can use gap which works better, but this is how it works for if only using float for the lesson. */
-  margin-right: 4%;
+  /* 20px is normal, standard spacing between an image and text. */
+  margin-right: 20px;
 }
 
 /* This is where I'm moving the entire right container @ verbiage (it's all held in the same div), I'm moving to the right. Opposite side than line 32 & 33 above. */
