@@ -46,6 +46,8 @@ span {
 .card {
   /* widths 48% for each so 4% gap in between */
   width: 48%;
+  /* If I do this it puts a margin on both cards and then the % is above 100% */
+  margin-right: 4%;
 }
 
 
