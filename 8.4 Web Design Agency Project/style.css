@@ -38,6 +38,8 @@ span {
   float:right;
 }
 
+/* Inline-Block is competing with float right and left
+so going to try making cards a % of the page */
 .card {
   display: inline-block;
 }
