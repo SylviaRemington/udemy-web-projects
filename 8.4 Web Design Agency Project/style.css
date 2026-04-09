@@ -24,22 +24,28 @@ span {
 
 /* Images */
 /* So this is where I'm floating all images to the left so that text can be to the right. */
+/* THIS IS ONLY THE PICTURE INSIDE THE CARD */
 .tile-image {
   float: left;
+  /* So that there is space between the image and the text */
+  margin-right: 4%;
 }
 
 /* This is where I'm moving the entire container of photo & verbiage to the left, while the text is still floating the way I created it on lines 27 & 28. */
+/* THIS IS THE ENTIRE LEFT CARD */
 .left {
   float: left;
 }
 
 /* This is where I'm moving the entire right container @ verbiage (it's all held in the same div), I'm moving to the right. Opposite side than line 32 & 33 above. */
+/* THIS IS THE ENTIRE RIGHT CARD */
 .right {
   float:right;
 }
 
 .card {
-  width: 45%
+  /* widths 48% for each so 4% gap in between */
+  width: 48%
 }
 
 
