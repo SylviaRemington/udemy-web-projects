@@ -38,10 +38,8 @@ span {
   float:right;
 }
 
-/* Inline-Block is competing with float right and left
-so going to try making cards a % of the page */
 .card {
-  display: inline-block;
+  width: 45%
 }
 
 
@@ -58,9 +56,11 @@ footer {
 
 /* As per research, it says best to put media queries at the end. */
 @media (min-width: 319px) and (max-width: 480px) {
-  img {
-    height: 200px;
-    width: 200px;
+  .img {
+    height: 25%;
+    width: 25%;
+    display: block;
+    /* why isn't this make it so they stack on top of eachother? */
   }
 
 }
