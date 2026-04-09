@@ -67,12 +67,7 @@ footer {
 
 /* As per research, it says best to put media queries at the end. */
 @media (min-width: 319px) and (max-width: 480px) {
-  img {
-    height: 25%;
-    width: 25%;
-    display: block;
-    /* why isn't this make it so they stack on top of eachother? */
-  }
+
 
 }
 
