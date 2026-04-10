@@ -28,7 +28,10 @@ span {
 .tile-image {
   float: left;
   /* So that there is space between the image and the text */
-  margin-right: 4%;
+  /* margin-right at 4% is too tiny, better to use 20px */
+  margin-right: 20px;
+  /* height is for height of image */
+  height: 200px;
 }
 
 /* This is where I'm moving the entire container of photo & verbiage to the left, while the text is still floating the way I created it on lines 27 & 28. */
@@ -268,3 +271,44 @@ CSS@media (max-width: 680px) {
   }
 }
 */ 
+
+/* ADDITIONAL NOTES & EXPLANATIONS */
+
+/* 
+You asked:
+"Why is display: block on .tile-image? I thought it was to make the images/cards sit next to each other."
+Super Simple Explanation:
+There are two completely different jobs happening in your code:
+Job #1: Making the two big cards sit next to each other
+This is controlled by:
+
+.left { float: left; }
+.right { float: right; }
+.card { width: 48%; }
+
+This is what makes the "Beauty" card and the "Construction" card appear side-by-side on the page.
+Job #2: Making the picture and text sit nicely inside each card
+This is controlled by .tile-image.
+Inside each card you have:
+
+One picture
+One title
+One paragraph of text
+
+You want the picture on the left, and the text on the right of that picture.
+Why we need display: block on .tile-image:
+When you write float: left on an image, the browser treats the image like a letter in a sentence (inline).
+Because of this, the browser leaves a little invisible space underneath the image — like the image is sitting on the baseline of text. This creates an ugly gap below the picture.
+display: block tells the browser:
+"Stop treating this image like text. Treat it like a normal box."
+When the image becomes a block, that ugly gap underneath disappears, and the text can sit right next to the picture cleanly.
+So to directly answer you:
+
+display: block on .tile-image is NOT for making the two big cards sit next to each other.
+It is ONLY for making the picture and the text line up nicely inside each individual card.
+
+Think of it like this:
+
+The two big cards = two houses
+The image and text = furniture inside each house
+display: block is just arranging the furniture neatly inside the house. */
