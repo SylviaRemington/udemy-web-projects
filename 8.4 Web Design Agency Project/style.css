@@ -77,7 +77,6 @@ footer {
 
 }
 
-
 /* 
 Mobile Devices: 319px — 480px
 iPads and Tablets: 481px — 1200px
@@ -85,6 +84,11 @@ Laptops: 1201px — 1600px
 Desktops: 1601px and more */
 
 
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
 
 /* NOTES ON WHAT IS NOT WORKING FOR MY CODE CURRENTLY SINCE I'M STUCK.
 I ASKED GROK TO LET ME KNOW WHY IT ISN'T WORKING SINCE I'VE BEEN TRYING 
@@ -112,3 +116,155 @@ You have no margin-right on .left, so the two cards are too close or overlapping
 Media query is weak (your lines 58–64):
 It only changes div and uses a very narrow range.
 It does not stop the cards from floating, so they stay side-by-side on mobile.*/
+
+/* ------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOLUTION INFORMATION - SO I CAN MOVE FORWARD & COME BACK TO THIS LATER AS WELL TO RE-REVIEW */
+
+/* 
+I will explain every single thing step by step, including why margin-right: 20px on .left is wrong.
+
+1. Big mistake on .left
+Your current code:
+CSS.left {
+  float: left;
+  height: 200px;           ← Wrong
+  margin-right: 20px;      ← Wrong
+}
+Why this is wrong:
+
+.left is the entire card — it contains the image, the title "Beauty" or "Construction", and the paragraph.
+height: 200px forces the whole card to be only 200px tall. This squishes the text and makes the layout look bad.
+margin-right: 20px on .left is also wrong here.
+Why?
+You are trying to use this margin to create space between the image and text, but .left is the big box, not the image. Putting margin here affects the spacing of the entire card, not just the image and text inside it. It also conflicts with the gap you need between the two cards.
+
+Correct version for .left:
+CSS.left {
+  float: left;
+  margin-right: 4%;        ← Only this (creates gap between the two big cards)
+}
+
+2. Image is too small
+Your current code:
+CSS.tile-image {
+  float: left;
+  margin-right: 4%;        ← Wrong
+}
+Why this is wrong:
+
+margin-right: 4% is too small for the space between the image and the text.
+Because the card is only 48% wide, 4% of that space makes the image very tiny.
+The text then has almost no room and gets pushed down below the image.
+
+Correct version for .tile-image:
+CSS.tile-image {
+  float: left;
+  height: 200px;           ← Standard good height for the image
+  margin-right: 20px;      ← Good amount of space between image and text
+  display: block;          ← Removes the unwanted gap under the image
+}
+
+3. No proper gap between the two cards
+Your current code:
+CSS.left {
+  float: left;
+  /* no margin-right here */
+/* }
+Why this is wrong:
+
+You have no gap between the left card and the right card.
+Without a gap, the two cards sit too close together or even overlap slightly.
+
+Correct version:
+Add this line to .left:
+CSS.left {
+  float: left;
+  margin-right: 4%;     ← This is the 4% gap between the two cards
+}
+.right stays simple:
+CSS.right {
+  float: right;
+}
+
+4. Media query is weak
+Your current code:
+CSS@media (max-width: 600px) {
+  div {
+    height: 200px;
+    width: 200px;
+  }
+}
+Why this is wrong:
+
+It only changes div, so it doesn’t affect your .left and .right cards.
+The range max-width: 600px is too narrow.
+It does not stop the cards from floating, so they stay side-by-side even on small screens.
+
+Correct version:
+CSS@media (max-width: 680px) {
+  .left,
+  .right {
+    float: none;           ← Stops floating on mobile
+    width: 100%;           ← Cards become full width
+    margin-right: 0;
+    margin-bottom: 30px;   ← Space between stacked cards
+  }
+
+  .tile-image {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+*/ 
