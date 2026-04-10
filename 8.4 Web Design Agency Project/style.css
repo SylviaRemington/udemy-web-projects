@@ -34,7 +34,7 @@ span {
 
   /* height is for height of image */
   height: 200px;
-  
+
   /* display block needs to be added because with float, it treats image and text inline like it's one sentence. 
   With changing it to block, it makes the image so that it takes up the full space & is a block & removes the gap 
   under the image. You only really find this out through trial and error, and/or google explaining it. */
@@ -87,6 +87,8 @@ footer {
 
 }
 
+/* ------------------------------------------------------------------------------------- */
+
 /* 
 Mobile Devices: 319px — 480px
 iPads and Tablets: 481px — 1200px
@@ -94,7 +96,23 @@ Laptops: 1201px — 1600px
 Desktops: 1601px and more */
 
 
+/* ------------------------------------------------------------------------------------- */
 
+/* 
+Best Order for CSS (Recommended for this assignment):
+Here’s the cleanest, most logical order to follow:
+
+General styles (body, main, h1, etc.)
+Layout styles (the cards – .card, .left, .right)
+Image styles (.tile-image)
+Footer
+Media query (MUST be at the very end)
+
+Why this order is best:
+CSS reads from top to bottom.
+Rules that come later can override earlier ones.
+Putting the media query at the very end is the most important rule. This way, when the screen is small, the mobile styles can override the desktop styles.
+*/
 
 
 
