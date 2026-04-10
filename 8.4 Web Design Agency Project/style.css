@@ -36,9 +36,11 @@ span {
 .left {
   float: left;
   /* 200px is normal, standard height for a readable image on a webpage. */
+  /* Line 40 is wrong and won't work because it is the entire card and not the image */
   height: 200px;
   /* So that there is a gap between the left card and the right card. In Flexbox you can use gap which works better, but this is how it works for if only using float for the lesson. */
   /* 20px is normal, standard spacing between an image and text. */
+  /* Margin right is wrong here because it is affecting the entire card and not between the image and the text. In wrong place. */
   margin-right: 20px;
 }
 
@@ -81,3 +83,32 @@ Mobile Devices: 319px — 480px
 iPads and Tablets: 481px — 1200px
 Laptops: 1201px — 1600px
 Desktops: 1601px and more */
+
+
+
+/* NOTES ON WHAT IS NOT WORKING FOR MY CODE CURRENTLY SINCE I'M STUCK.
+I ASKED GROK TO LET ME KNOW WHY IT ISN'T WORKING SINCE I'VE BEEN TRYING 
+TO FIGURE IT OUT FOR A COUPLE DAYS. HERE IS THE RESPONSE SO THAT I CAN 
+CONTINUE AND COMPLETE THIS ASSIGNMENT AND KEEP GOING WITH THE LESSONS.
+
+Your code is close, but there are a few important mistakes that are stopping it from looking like the solution.
+I will explain why things are wrong in your current code with line numbers so it's easy to follow.
+
+Why Your Current Code Is Not Working Well
+
+Big mistake on .left (your lines 27–33):
+You put height: 200px and margin-right: 20px on .left.
+.left is the entire card (picture + title + paragraph).
+By giving the whole card a height of 200px, you are squishing everything.
+The image height and spacing should be on .tile-image, not on .left.
+
+Image is too small (your line 22):
+You have margin-right: 4% on .tile-image.
+4% is too small for spacing between image and text — the image becomes tiny.
+
+No proper gap between the two cards:
+You have no margin-right on .left, so the two cards are too close or overlapping.
+
+Media query is weak (your lines 58–64):
+It only changes div and uses a very narrow range.
+It does not stop the cards from floating, so they stay side-by-side on mobile.*/
