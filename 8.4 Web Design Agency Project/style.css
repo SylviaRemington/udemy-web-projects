@@ -27,11 +27,18 @@ span {
 /* THIS IS ONLY THE PICTURE INSIDE THE CARD */
 .tile-image {
   float: left;
+
   /* So that there is space between the image and the text */
   /* margin-right at 4% is too tiny, better to use 20px */
   margin-right: 20px;
+
   /* height is for height of image */
   height: 200px;
+  
+  /* display block needs to be added because with float, it treats image and text inline like it's one sentence. 
+  With changing it to block, it makes the image so that it takes up the full space & is a block & removes the gap 
+  under the image. You only really find this out through trial and error, and/or google explaining it. */
+  display: block;
 }
 
 /* This is where I'm moving the entire container of photo & verbiage to the left, while the text is still floating the way I created it on lines 27 & 28. */
