@@ -85,7 +85,26 @@ footer {
 
 /* ------------------------------------------------------------------------------------- */
 
-/* 
+
+/* CURRENT GUIDELINES AS OF 2026 FOR THESE DEVICES:
+Here is only the list of current guidelines (2026):
+Current Recommended Breakpoints
+
+Mobile Devices: max-width: 480px
+Large Mobile / Small Tablet: max-width: 768px
+Tablet: max-width: 1024px
+Laptop / Small Desktop: max-width: 1280px
+Large Desktop: min-width: 1440px
+
+Most Commonly Used Simple Set
+
+Mobile: max-width: 768px
+Tablet: max-width: 1024px
+Desktop: min-width: 1025px 
+*/
+
+
+/* OLD GUIDELINES
 Mobile Devices: 319px — 480px
 iPads and Tablets: 481px — 1200px
 Laptops: 1201px — 1600px
