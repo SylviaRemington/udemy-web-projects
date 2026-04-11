@@ -122,10 +122,12 @@ footer {
   }
 
   .logo {
-    font-size: .5rem;
+    /* Can't use font-size for logo since logo is actually an image. Need to use width & height. */
+    /* font-size: .5rem; */
+    width: 100px;
+    height: auto;
   }
 }
-
 
 
 /* ------------------------------------------------------------------------------------- */
