@@ -98,7 +98,7 @@ footer {
     /* no margin-right needed since not inline */
     margin-right: 0;
     /* margin-bottom so that there is spacing between card and the next card */
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   /* .tile-image targets the images inside my cards */
