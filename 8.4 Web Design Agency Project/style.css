@@ -115,7 +115,7 @@ footer {
     while filling the element's entire content box. If the object's 
     aspect ratio does not match the aspect ratio of its box, 
     then the object will be clipped to fit."
-    
+
     */
   }
 
@@ -248,11 +248,11 @@ You don’t need to rearrange anything.
 
 /* ------------------------------------------------------------------------------------- */
 
+/* ADDTL NOTES:
+FLOAT WAS USED MORE IN THE PAST CIRCA 2005-2010 in programming. Just fyi. */
 
 
-
-
-
+/* ------------------------------------------------------------------------------------- */
 
 
 
@@ -435,3 +435,4 @@ Think of it like this:
 The two big cards = two houses
 The image and text = furniture inside each house
 display: block is just arranging the furniture neatly inside the house. */
+
