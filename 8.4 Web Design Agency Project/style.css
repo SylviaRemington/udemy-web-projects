@@ -76,22 +76,38 @@ footer {
 /* As per research, it says best to put media queries at the end. */
 /* Creating responsive design for when website becomes phone size. So cards are stacked on top of eachother. */
 @media (max-width: 680px) {
+  /* targeting the left and right cards at the same time.
+  Don't need to add display: block because that is the default. 
+  But need to take away the float from above so that it can function
+  as default display (since they are divs and block by default).*/
   .left, .right {
+    /* float allows cards to stack */
     float: none;
+    /* width 100% so they take the whole width of phone */
     width: 100%;
+    /* no margin-right needed since not inline */
     margin-right: 0;
+    /* margin-bottom so that there is spacing between card and the next card */
     margin-bottom: 30px;
   }
 
+  /* .tile-image targets the images inside my cards */
   .tile-image {
+    /* takes off the float so that images & text can stack on top of eachother */
     float: none;
+    /* makes image take the full width of the card on mobile for better readability */
     width: 100%;
+    /* height auto prevents image from looking stretched or squished on smaller screens & so image keeps its natural height. */
     height: auto;
+    /* removes the 20px space that was between the image & the text further above
+    Also, since image is on top in mobile responsiveness, no margin is needed */
     margin-right: 0;
   }
 
   h1 {
+    /* targets the heading so on mobile it doesn't look too big */
     font-size: 3.5rem;
+    /* centers heading on small screens so it looks better & more balanced on phones */
     text-align: center;
   }
 }
