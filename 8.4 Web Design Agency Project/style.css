@@ -120,7 +120,13 @@ footer {
     /* centers heading on small screens so it looks better & more balanced on phones */
     text-align: center;
   }
+
+  .logo {
+    font-size: .5rem;
+  }
 }
+
+
 
 /* ------------------------------------------------------------------------------------- */
 
