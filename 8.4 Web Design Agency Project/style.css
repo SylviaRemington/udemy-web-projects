@@ -102,8 +102,20 @@ footer {
 
     /* Could also add (for future reference) text-align: justify to make text go 
     to the edges and look cleaner: 
-    
+
     e.g. text-align: justify;
+
+    -------
+
+    Addtl per lesson, could add "object-fit: cover;"
+    This does the following as per MDN: 
+
+    "cover
+    The replaced content is sized to maintain its aspect ratio 
+    while filling the element's entire content box. If the object's 
+    aspect ratio does not match the aspect ratio of its box, 
+    then the object will be clipped to fit."
+    
     */
   }
 
