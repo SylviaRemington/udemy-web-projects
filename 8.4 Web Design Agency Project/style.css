@@ -99,6 +99,12 @@ footer {
     margin-right: 0;
     /* margin-bottom so that there is spacing between card and the next card */
     margin-bottom: 50px;
+
+    /* Could also add (for future reference) text-align: justify to make text go 
+    to the edges and look cleaner: 
+    
+    e.g. text-align: justify;
+    */
   }
 
   /* .tile-image targets the images inside my cards */
