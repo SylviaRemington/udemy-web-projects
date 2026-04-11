@@ -22,6 +22,8 @@ span {
   color: rgb(25, 25, 112);
 }
 
+/* ------------------------------------------------------------------------------------- */
+
 /* Images */
 /* So this is where I'm floating all images to the left so that text can be to the right. */
 /* THIS IS ONLY THE PICTURE INSIDE THE CARD */
@@ -41,14 +43,17 @@ span {
   display: block;
 }
 
+/* ------------------------------------------------------------------------------------- */
+
 /* This is where I'm moving the entire container of photo & verbiage to the left, while the text is still floating the way I created it on lines 27 & 28. */
 /* THIS IS THE ENTIRE LEFT CARD */
 .left {
   float: left;
   /* margin-right 4% creates the gap between the two cards */
   margin-right: 4%;
-
 }
+
+/* ------------------------------------------------------------------------------------- */
 
 /* This is where I'm moving the entire right container @ verbiage (it's all held in the same div), I'm moving to the right. Opposite side than line 32 & 33 above. */
 /* THIS IS THE ENTIRE RIGHT CARD */
@@ -56,11 +61,14 @@ span {
   float:right;
 }
 
+/* ------------------------------------------------------------------------------------- */
+
 .card {
   /* widths 48% for each so 4% gap in between */
   width: 48%;
 }
 
+/* ------------------------------------------------------------------------------------- */
 
 footer {
   text-align: right;
@@ -72,6 +80,8 @@ footer {
   /* clear: left; This is the previous when I only had lines 27-28 and not the other lines underneath. */
   clear: both;
 }
+
+/* ------------------------------------------------------------------------------------- */
 
 /* As per research, it says best to put media queries at the end. */
 /* Creating responsive design for when website becomes phone size. So cards are stacked on top of eachother. */
