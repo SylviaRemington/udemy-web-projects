@@ -202,8 +202,25 @@ It does not stop the cards from floating, so they stay side-by-side on mobile.*/
 
 /* ------------------------------------------------------------------------------------- */
 
+/* NOTES FROM GROK AFTER COMPLETING ASSIGNMENT TO SEE IF ORDER OK OF CODE:
 
+Is the order okay?
+Yes, your order is good and logical.
+Here’s a quick breakdown of your current order:
 
+General styles (body, .main, h1, span) → good
+.tile-image → good
+.left and .right → good
+.card → good
+footer → good
+Media query at the very end → correct and important
+
+This follows the best practice order for this assignment.
+You don’t need to rearrange anything.
+
+*/
+
+/* ------------------------------------------------------------------------------------- */
 
 
 
