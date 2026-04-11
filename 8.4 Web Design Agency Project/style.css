@@ -74,13 +74,26 @@ footer {
 }
 
 /* As per research, it says best to put media queries at the end. */
-@media (max-width: 600px) {
-  div {
-    height: 200px;
-    width: 200px;
+/* Creating responsive design for when website becomes phone size. So cards are stacked on top of eachother. */
+@media (max-width: 680px) {
+  .left, .right {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 
+  .tile-image {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
 
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
 }
 
 /* ------------------------------------------------------------------------------------- */
