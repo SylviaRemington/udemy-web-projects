@@ -25,7 +25,7 @@
 <img width="843" height="681" alt="be-the-change Screenshot 2026-01-28 at 7 29 05 PM" src="https://github.com/user-attachments/assets/640277fc-ec9b-4462-999e-ba178597187f" />
 
 <br>
-<br>
+
 
 <hr>
 
@@ -34,4 +34,4 @@
 
 
 
-<br>
+
