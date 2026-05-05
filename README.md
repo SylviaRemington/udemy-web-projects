@@ -2,7 +2,7 @@
 ## **These are practice Udemy Web Projects within the Angela Yu course: Become a Full-Stack Web Developer - "The Complete Full-Stack Web Development Bootcamp"**  
 
 **Latest Update: Restarting Full Udemy Course - February 25th, 2026 & planning on completing within a month! Yay and yuuus!**
-
+<br>
 <hr>
 
 ### HTML ONLY Website Project Below <br> (Practice for Udemy Course - going through everything to make sure I know the basics!)
@@ -35,3 +35,5 @@
 
 
 <br>
+
+
