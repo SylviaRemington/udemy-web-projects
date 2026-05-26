@@ -20,7 +20,7 @@
 
 <hr>
 
-<br>
+
 
 ### CSS Box Model Practice - Motivational Poster Website Project <br> (Practice for Udemy Course - only using most basic CSS for this project as per Angela Yu)
 
@@ -36,4 +36,3 @@
 
 
 <br>
-
